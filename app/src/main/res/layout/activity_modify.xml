@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf8d0"
+    tools:context="com.mdy.android.treee.ModifyActivity">
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="NotoSansCJKkr-Medium"
+        android:text="Date"
+        android:textColor="#acacac"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="23dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/imageViewTime"
+        android:layout_marginLeft="12dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDate">
+
+        <EditText
+            android:id="@+id/editTextContent1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="NotoSansCJKkr-Regular"
+            android:gravity="top|left"
+            android:hint="첫 번째 감사내용"
+            android:inputType="textMultiLine|textPersonName"
+            android:maxLength="100"
+            android:maxLines="4"
+            android:padding="10dp"
+            android:textColor="#505050"
+            android:textColorHint="#505050"
+            android:textSize="14sp" />
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageViewTime"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:srcCompat="@drawable/feedtime"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="32dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <EditText
+            android:id="@+id/editTextContent2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="NotoSansCJKkr-Regular"
+            android:gravity="top|left"
+            android:hint="두 번째 감사내용"
+            android:inputType="textMultiLine|textPersonName"
+            android:maxLength="100"
+            android:maxLines="4"
+            android:padding="10dp"
+            android:textColor="#505050"
+            android:textColorHint="#505050"
+            android:textSize="14sp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="290dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3"
+        android:id="@+id/cardView4">
+
+        <EditText
+            android:id="@+id/editTextContent3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="NotoSansCJKkr-Regular"
+            android:gravity="top|left"
+            android:hint="세 번째 감사내용"
+            android:inputType="textMultiLine|textPersonName"
+            android:maxLength="100"
+            android:maxLines="4"
+            android:padding="10dp"
+            android:textColor="#505050"
+            android:textColorHint="#505050"
+            android:textSize="14sp" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="47dp"
+        android:layout_marginTop="15dp"
+        app:cardBackgroundColor="@color/colorWhite"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView4"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_goneMarginEnd="8dp">
+
+        <ImageView
+            android:id="@+id/imageViewGallery"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageViewSave"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginRight="36dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/save"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/imageViewCamera"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/camera"
+        app:layout_constraintRight_toLeftOf="@+id/imageViewSave"
+        android:layout_marginRight="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/txtImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+</android.support.constraint.ConstraintLayout>

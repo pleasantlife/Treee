@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "86226832445",
+    "firebase_url": "https://nodal-listener-169801.firebaseio.com",
+    "project_id": "nodal-listener-169801",
+    "storage_bucket": "nodal-listener-169801.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86226832445:android:ff99a39f0cae7506",
+        "android_client_info": {
+          "package_name": "com.mdy.android.treee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86226832445-c2foh12g167s5eq92aukkbn1unblitra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mdy.android.treee",
+            "certificate_hash": "5f70fc0e480058850f98d19aae431df49c36180f"
+          }
+        },
+        {
+          "client_id": "86226832445-sngbp1b412ov4163auahhevc38tdi034.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBZaFa_bOGoKAK7R669fOPdXB4S6UXik4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86226832445-sngbp1b412ov4163auahhevc38tdi034.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Treee</string>
+    <string name="facebook_app_id">257362601427593</string>
+    <string name="fb_login_protocol_scheme">fb257362601427593</string>
+</resources>
