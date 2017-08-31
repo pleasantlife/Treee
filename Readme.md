@@ -1,7 +1,7 @@
-# Treee App
-## Firebase Project
+# Firebase Project : Treee Application 제작
+
 #### 부제: DailyThreeThanks
-![appIcon](https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/appIcon.png)
+![appIcon]<img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/appIcon.png' width='60%' height='60% />
 
 <br>
 
@@ -19,15 +19,15 @@
 <br>
 
 ## Treee App 화면
-<img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/1_login.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/2_feedFirst.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/3_listFirst.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/4_read.png' width='210' height='350' />
+<img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/1_login.png' width='210' height='350'>로그인화면 </img> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/2_feedFirst.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/3_listFirst.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/4_read.png' width='210' height='350' />
 
 <br>
 
-<img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/5_modify.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/6_delete.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/7_feedFAB.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/8_listFAB.png' width='210' height='350' />
+<img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/5_modify.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/6_delete.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/7_feedFAB.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/8_listFAB.png' width='210' height='350' />
 
 <br>
 
-<img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/9_feedCheckBox.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/10_feedCheckBoxDelete.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/11_listCheckBox.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/12_listCheckBoxDelete.png' width='210' height='350' />
+<img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/9_feedCheckBox.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/10_feedCheckBoxDelete.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/11_listCheckBox.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/12_listCheckBoxDelete.png' width='210' height='350' />
 
 <br>
 
@@ -37,12 +37,6 @@
 
 <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/17_logout.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/18_accountDelete.png' width='210' height='350' />
 
-
-<br>
-
-## Treee App 소스코드
-- #### [전체소스코드](https://github.com/mdy0501/Study/tree/master/Android/Mini%20Project/Treee/app/src/main/java/com/mdy/android/treee)
-
 <br>
 
 ## Treee App 영상
@@ -51,11 +45,18 @@
 
 <br>
 
-## Treee App에 사용된 개념들
+## Treee App 제작시 활용한 안드로이드 기능
+
+### 0. 활용 기능 요약
+- #### SharedPreference : 사용자의 고유데이터 저장(알림 활성 시간, 로그인 처리용 토큰 등)
+- #### Firebase : 이메일, 페이스북 계정 또는 구글 계정을 이용한 로그인 및 사용자 등록
+- #### Time Pick & Save : TimePicker를 통해 사용자가 특정 시간대를 선택, Calendar와 SharedPreference를 이용하여 선택한 시간대를 저장 
+- #### Notification : Service와 BroadCast Receiver를 이용하여 지정된 시간에 Notification 활성화
+
 ### 1. SharedPreference
 - #### 사용자 Uid 저장
-- #### 로그인시 프로필 사진 fileUriString
-- #### Notification 시간 설정
+- #### 로그인시 프로필 사진 fileUriString(페이스북 프로필 사진 포함)
+- #### Notification 시간 설정(사용자가 설정한 시간에 맞춰 Notification을 활성화 시킴)
 
 ```java
 public class PreferenceUtil {
@@ -529,215 +530,7 @@ private void deleteUserAccount(){
 ```
 <br>
 
-### 4. Firebase 데이터베이스
-- #### Create (삽입)
-```java
-// 파이어베이스 데이터베이스
-FirebaseDatabase database;
-DatabaseReference memoRef, userRef;
-
-...
-
-// 데이터베이스 레퍼런스
-database = FirebaseDatabase.getInstance();
-memoRef = database.getReference("memo");
-String userUid = auth.getCurrentUser().getUid();
-userRef = database.getReference("user").child(userUid).child("memo");
-
-...
-
-// 데이터베이스 삽입
-/* 입력할 데이터의 키 생성 */
-String memoKey = memoRef.push().getKey(); // 자동생성된 키를 가져온다.
-memo.memoKeyName = memoKey;
-
-memoRef.child(memoKey).setValue(memo);
-userRef = database.getReference("user").child(userUid).child("memo");
-userRef.child(memoKey).setValue(memo);
-```
-<br>
-
-- #### Read (읽기)
-```java
-// 파이어베이스 데이터베이스
-FirebaseDatabase database;
-DatabaseReference userRef;
-
-...
-
-String userUid = PreferenceUtil.getUid(this);
-userRef = database.getReference("user").child(userUid).child("memo");
-
-...
-
-userRef.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot data) {
-                Data.list.clear();
-                for( DataSnapshot item : data.getChildren() ){
-                    // json 데이터를 Memo 인스턴스로 변환오류 발생 가능성 있어서 예외처리 필요
-                    try {
-                        Memo memo = item.getValue(Memo.class);
-                        if(memo.userUid.equals(auth.getCurrentUser().getUid()) ) {
-                            Data.list.add(memo);
-                        }
-                    } catch (Exception e){
-                        Log.e("FireBase", e.getMessage());
-                    }
-                }
-                refreshFeed(Data.list);
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-```
-<br>
-
-- #### Update (수정)
-```java
-// update는 insert와 동일하게 동작한다.
-String userUid = PreferenceUtil.getUid(this);
-userRef = database.getReference("user").child(userUid).child("memo");
-
-userRef.child(memo.memoKey).setValue(memo);
-```
-<br>
-
-- #### Delete (삭제)
-```java
-// delete는 insert와 동일하게 동작한다.
-String userUid = PreferenceUtil.getUid(this);
-userRef = database.getReference("user").child(userUid).child("memo");
-
-userRef.child(memo.memoKey).setValue(null);
-```
-
-<br>
-
-### 5. 파일 업로드 (Firebase 스토리지)
-```java
-// 파이어베이스 스토리지
-private StorageReference mStorageRef;
-
-...
-
-// 스토리지 레퍼런스
-mStorageRef = FirebaseStorage.getInstance().getReference("images");
-
-...
-
-public void uploadFile(String filePath){
-    // 스마트폰에 있는 파일의 경로
-    File file = new File(filePath);
-    Uri uri = Uri.fromFile(file);
-
-    // 파이어베이스에 있는 파일 경로
-    String fileName = file.getName(); // + 시간값 or UUID 추가해서 만들어준다.
-
-    // 데이터베이스의 키가 값과 동일한 구조 ( 키 = 값 )
-    StorageReference fileRef = mStorageRef.child(fileName);
-
-    fileRef.putFile(uri)
-            .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-                @Override
-                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                    // 파이어베이스 스토리지에 방금 업로드한 파일의 경로
-                    @SuppressWarnings("VisibleForTests")
-                    Uri uploadedUri = taskSnapshot.getDownloadUrl();
-                    afterUploadFile(uploadedUri);
-                }
-            })
-            .addOnFailureListener(new OnFailureListener() {
-                @Override
-                public void onFailure(@NonNull Exception exception) {
-                    // Handle unsuccessful uploads
-                    Log.i("FBStorage", "Upload Fail : " + exception.getMessage());
-                }
-            });
-}
-
-
-public void afterUploadFile(Uri imageUri){
-
-    String content1 = editTextContent1.getText().toString();
-    String content2 = editTextContent2.getText().toString();
-    String content3 = editTextContent3.getText().toString();
-
-    // 파이어베이스 데이터베이스에 데이터 넣기
-    // 1. 데이터 객체 생성
-    Memo memo = new Memo(content1, content2, content3);
-    memo.date = inputCurrentDate();
-    memo.userUid = auth.getCurrentUser().getUid();
-    memo.userEmail = auth.getCurrentUser().getEmail();
-
-    if(imageUri != null){
-        memo.fileUriString =imageUri.toString();
-    }
-
-    // 2. 입력할 데이터의 키 생성
-    String memoKey = memoRef.push().getKey(); // 자동생성된 키를 가져온다.
-    memo.memoKeyName = memoKey;
-
-    // 3. 생성된 키를 레퍼런스로 데이터를 입력
-    //   insert와 update, delete 는 동일하게 동작
-    memoRef.child(memoKey).setValue(memo);
-
-    String userUid = auth.getCurrentUser().getUid();
-    userRef = database.getReference("user").child(userUid).child("memo");
-
-    userRef.child(memoKey).setValue(memo);
-
-    // 데이터 입력 후 창 닫기
-    dialog.dismiss();
-    finish();
-}
-
-
-// 시간 생성하는 함수
-public String inputCurrentDate(){
-    Date currentTime = new Date();
-    SimpleDateFormat sdf = new SimpleDateFormat("MM월 dd일, hh:mm a");
-    return sdf.format(currentTime);
-}
-
-
-// startActivityForResult()가 끝나면 호출되는 메소드
-@Override
-protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-    super.onActivityResult(requestCode, resultCode, data);
-    if(resultCode == RESULT_OK){
-        switch (requestCode) {
-            // 나. 이미지 선택창에서 선택된 이미지의 경로 추출
-            case 100:
-                Uri imageUri = data.getData();
-                String filePath = getPathFromUri(this, imageUri);
-                txtImage.setText(filePath);
-                Glide.with(this).load(imageUri).centerCrop().into(imageViewGallery);
-                Toast.makeText(this, "사진이 등록되었습니다.", Toast.LENGTH_SHORT).show();
-                break;
-        }
-    }
-}
-
-
-// Uri에서 실제 경로 꺼내는 함수
-public String getPathFromUri(Context context, Uri uri){
-    String realPath = "";
-    Cursor cursor = context.getContentResolver().query(uri, null, null, null, null);
-    if( cursor.moveToNext() ){
-        realPath = cursor.getString(cursor.getColumnIndex("_data"));
-    }
-    cursor.close();
-
-    return realPath;
-}
-```
-<br>
-
-### 6. Notification
+### 5. Notification
 - #### Service
 ```java
 public class NotiService extends Service {
@@ -843,13 +636,10 @@ private TimePickerDialog.OnTimeSetListener listener = new TimePickerDialog.OnTim
 };
 ```
 
-
-
-
-
 <br>
 
-### 7. FloatingActionButton
+### 6. FloatingActionButton
+- 화면을 일정구간까지 스크롤하면, FloatingActionButton이 화면에 나타나도록 로직 
 - #### ListActivity
 - #### FeedActivity
 ```java
@@ -905,70 +695,3 @@ public void setNestedList(){
 ```
 <br>
 
-
-### 8. ProgressDialog / AlertDialog
-- #### ProgressDialog (로그인시)
-```java
-// 프로그래스바 정의
-private ProgressDialog loginDialog;
-
-...
-
-// onCreate()에
-loginDialog = new ProgressDialog(this);
-loginDialog.setTitle("로그인");
-loginDialog.setMessage("로그인 하고 있습니다.");
-loginDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
-
-...
-
-// 로그인 시작하는 부분에서
-loginDialog.show();
-
-...
-
-// 로그인 끝나는 부분에서
-loginDialog.dismiss();
-
-```
-- #### AlertDialog (로그아웃시)
-```java
-setAlertDialogLogoutUserAccount();
-
-...
-
-// AlertDialog - ProfileActivity에서 사용자 계정 로그아웃
-public void setAlertDialogLogoutUserAccount(Context context){
-    AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(context);
-
-    // 제목 setting
-    alertDialogBuilder.setTitle("로그아웃");
-
-    // AlertDialog setting
-    alertDialogBuilder
-            .setMessage("로그아웃 하시겠습니까?")
-            .setCancelable(false)
-            .setNegativeButton("예",
-                    new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            // 로그아웃을 한다.
-                            logoutUserAccount();
-                        }
-                    })
-            .setPositiveButton("아니오",
-                    new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            // 로그아웃을 하지 않는다.
-                            dialog.cancel();
-                        }
-                    });
-
-    // 다이얼로그 생성
-    AlertDialog alertDialog = alertDialogBuilder.create();
-
-    // 다이얼로그 보여주기
-    alertDialog.show();
-}
-```
