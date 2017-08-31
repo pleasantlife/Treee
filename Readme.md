@@ -1,7 +1,7 @@
 # Firebase Project : Treee Application 제작
 
 #### 부제: DailyThreeThanks
-![appIcon]<img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/appIcon.png' width='60%' height='60% />
+![appIcon]<img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/appIcon.png' width='256px' height='256px' />
 
 <br>
 
@@ -19,7 +19,7 @@
 <br>
 
 ## Treee App 화면
-<img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/1_login.png' width='210' height='350'>로그인화면 </img> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/2_feedFirst.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/3_listFirst.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/4_read.png' width='210' height='350' />
+<img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/1_login.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/2_feedFirst.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/3_listFirst.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/4_read.png' width='210' height='350' />
 
 <br>
 
@@ -27,15 +27,12 @@
 
 <br>
 
-<img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/9_feedCheckBox.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/10_feedCheckBoxDelete.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/11_listCheckBox.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/12_listCheckBoxDelete.png' width='210' height='350' />
+<img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/9_feedCheckBox.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/10_feedCheckBoxDelete.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/11_listCheckBox.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/12_listCheckBoxDelete.png' width='210' height='350' />
 
 <br>
 
-<img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/13_profileImage.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/14_profileNotiOn.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/15_profileNotiTimeSet.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/16_notiAlarm.png' width='210' height='350' />
-
-<br>
-
-<img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/17_logout.png' width='210' height='350' /> <img src = 'https://github.com/mdy0501/Study/blob/master/Android/Mini%20Project/Treee/graphics/18_accountDelete.png' width='210' height='350' />
+<img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/15_profileNotiTimeSet.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/16_notiAlarm.png' width='210' height='350' />
+<img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/17_logout.png' width='210' height='350' /> <img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/18_accountDelete.png' width='210' height='350' />
 
 <br>
 
