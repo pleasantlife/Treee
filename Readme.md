@@ -1,7 +1,8 @@
 # Firebase Project : Treee Application 제작
 
 #### 부제: DailyThreeThanks
-![appIcon]<img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/appIcon.png' width='256px' height='256px' />
+<img src = 'https://github.com/pleasantlife/Treee/blob/master/graphics/appIcon.png' width='256px' height='256px' />
+- ##### application icon
 
 <br>
 
@@ -636,7 +637,7 @@ private TimePickerDialog.OnTimeSetListener listener = new TimePickerDialog.OnTim
 <br>
 
 ### 6. FloatingActionButton
-- 화면을 일정구간까지 스크롤하면, FloatingActionButton이 화면에 나타나도록 로직 
+- #### 화면을 일정구간까지 스크롤하면, FloatingActionButton이 화면에 나타나도록 로직 구현
 - #### ListActivity
 - #### FeedActivity
 ```java
